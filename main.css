@@ -1,0 +1,93 @@
+@font-face {
+    font-family: SyneMono;
+    src: url(./fonts/SyneMono-Regular.ttf);
+}
+  
+@font-face {
+    font-family: BigShouldersBlack;
+    src: url(./fonts/BigShouldersStencilText-Black.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: BigShouldersBlack;
+    color: #1f0d49;
+}
+
+p, a, button, div {
+    font-family: SyneMono;
+}
+
+.btn {
+    font-family: BigShouldersBlack;
+    text-transform: uppercase;
+}
+
+a {
+    color: #1f0d49;
+}
+  
+.header { 
+    background: url(./images/hardcore-darwinism-spawn-2011-08-29_16.48.55.png);
+    background-size: cover;
+}
+
+.header .col-12 .caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px 10px;
+}
+
+.header .col-12 .my-auto .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.header .col-md-4 {
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+}
+
+.btn.btn-primary {
+    background-color: #1f0d49;
+    border-color: #1f0d49;
+}
+
+.btn.btn-outline-primary {
+    border-color: #1f0d49;
+    color: #1f0d49;
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: #1f0d49;
+    border-color: #1f0d49;
+    color: white;
+}
+
+.btn.btn-primary:hover {
+    border-color: #1f0d49;
+    color: #1f0d49;
+    background-color: white;
+}
+
+.color-reverse {
+    background-color: #1f0d49;
+    color: white;
+}
+
+.color-reverse a {
+    color: white;
+    text-decoration: underline;
+}
+
+.color-reverse a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    border-bottom: 1px dashed white;
+}
+
+a img:hover {
+    -webkit-filter: drop-shadow(0 0 10px #efefef);
+    filter: drop-shadow(0 0 10px #efefef);
+  }
